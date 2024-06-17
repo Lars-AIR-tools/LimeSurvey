@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <metadata>
+        <name>Airpanels</name>
+        <type>plugin</type>
+        <creationDate>2024-06-14</creationDate>
+        <last_update>2024-06-14</last_update>
+        <author>Wouter Bijen (Transformers group)</author>
+        <authorUrl>https://gitlab.com/transformers-group/airpanels/</authorUrl>
+        <supportUrl>https://gitlab.com/transformers-group/airpanels/</supportUrl>
+        <copyright>Copyright (C) 2024 Transformers Group.</copyright>
+        <license>-</license>
+        <version>1.0.0</version>
+        <description><![CDATA[Enhances limesurvey with AI capabilities]]></description>
+    </metadata>
+
+    <compatibility>
+        <version>6.0</version>
+        <version>5.0</version>
+        <version>4.0</version>
+        <version>3.0</version>
+    </compatibility>
+    <updaters disabled="disabled"></updaters>
+
+</config>
