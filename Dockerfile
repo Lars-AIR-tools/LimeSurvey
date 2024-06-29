@@ -30,5 +30,9 @@ RUN apt update && \
 # Expose the port Apache listens on
 EXPOSE 80
 
+# Modify the php.ini to set the memory limit to 4GB
+RUN echo "memory_limit = 4G" >> $PHP_INI_DIR/php.ini
+
+
 # Start Apache when the container runs
 CMD ["apache2-foreground"]
